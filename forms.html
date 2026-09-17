@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up Form</title>
+    </head>
+    <body>
+        <!-- FORM -->
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <label for="a">
+                    Name :</label><input type="text" id="a" name="user" value="" placeholder="Enter Name" minlength="3" maxlength="10" required>
+                <br>
+                password :<input type="password" name="pwd" placeholder="Enter Password" required>
+                <br>
+                <label or="a"> 
+                    Email ID :<input type="email" name="email" value="" placeholder="Enter Email Address" required>
+                </label>
+                <br>
+                PHONE : <input type="tel" placeholder="Enter phone number"  max="10" required>
+                <br>
+                ADDRESS : <textarea rows="5" cols="20" placeholder="Enter Massage"></textarea>
+                <br>
+                Gender : <input type="radio" name="gen" value="Male" > Male
+                <input type="radio" name="gen" value="Female" >Female
+                <br>
+                Hobby : <input type="checkbox" name="Hobby" value="Cricket"> Cricket
+                <input type="checkbox" name="Hobby" value="study"> study 
+                <br>
+                D.O.B : <input type="date" max="2027-03-01" min="2026-09-17">
+                <br>
+                AGE : <input type="number" min="15" max="85" step="1" value="">
+                <br>
+                VOLUME : <input type="range" min="0" max="100" value="" step="">
+                <br>
+                <!-- LIST -->
+                 <!-- DATA LIST -->
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">firefox</option>
+                    <option value="opera">Opera</option>
+                </datalist>
+                <br>
+                <!-- DROPDOWN -->
+                <select name="branch">
+                    <option value="select" >Select Branch</option>
+                    <optgroup label="CE">
+                        <option value="CSE">CSE</option>
+                        <option value="IT">IT</option>
+                    </optgroup>
+                    <br>
+                    <optgroup label="other">
+                         <option value="EC">EC</option>
+                        <option value="DE">DE</option>
+                    </optgroup>
+                </select> 
+                <br>
+                <!-- RESET -->
+                <input type="reset">
+                <!-- SUBMIT -->
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
