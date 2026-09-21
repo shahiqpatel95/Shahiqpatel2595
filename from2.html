@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Sign Up</legend>
+         Name :<input type="text" name="user" value="" placeholder="Enter Name" required>
+        <br>
+        Password :<input type="password" name="psw" value="" required>
+        <br>
+        Email: <input type="email" name="email" value="" required>
+        <br>
+        phone: <input type="tel" name="phone" value="" required>
+        <br>
+        Gender: <input type="radio" name="gen" value="male">male
+        <input type="radio" name="gen" value="Female">Female
+        <br>
+        Hobbies : <input type="checkbox" name="Hobby" value="Music">Music
+        <input type="checkbox" name="Hobby" value="Sports">Sport
+        <br>
+        </fieldset>
+    </form>
+    <br>
+    <from>
+        <fieldset>
+            <legend>Information</legend>
+            D.O.B :<input type="date" max="2027-01-01" min="2000-01-01">
+            <br>
+            Age : <input type="number" max="85" min="18" step="2">
+            <br>
+            Fav Color :<input type="color" name="clr" value="#FF00FF">
+            <br>
+            <input list="browser" name="br">
+            <datalist id="browser">
+                <option label="FireFox">Fire Fox</option>
+                <option lable="Google">Google</option>
+                <option lable="safari">Safari</option>
+            </datalist>
+            <br>
+            <select name="Branch">
+                <option selected>SELECT BRANCH</option>
+                <optgroup label="Computer">
+                    <option label="CSE">CSE</option>
+                    <option lable="CEA">CEA</option>
+                    <option lable="CSE-DS">CSE-DS</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </from>
+    <form>
+        <fieldset>
+            <legend>Review</legend>
+            Massage : <textarea rows="5" cols="3"></textarea>
+            <br>
+            Satisfaction : <input type="range" min="0" max="100" step="5">
+            <br>
+            <input type="submit">
+            <input type="reset">
+            <input type="button">
+        </fieldset>
+    </form>
+</body>
+</html>
