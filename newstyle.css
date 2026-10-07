@@ -1,0 +1,14 @@
+/* Element */
+p{color: cyan;}
+h1{background-color: tomato;}
+
+/* id  */
+#abc{color:green}
+#pqr{background-color: black;}
+
+/* class */
+.abc{color:orange}
+.large{font-size: 32px;}
+/* Universal */
+*{text-decoration: underline;}
+

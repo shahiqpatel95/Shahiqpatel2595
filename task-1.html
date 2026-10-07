@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-1</title>
+    <link href="newstyle.css" rel="stylesheet" type="text/css" />
+    Attribute
+    <style>
+        input[type="text"] {
+            background-color: pink;
+            width: 500px
+        }
+
+        input[type="button"] {
+            background-color: blue;
+            color: white;
+        }
+
+        a[target="_blank"] {
+            text-decoration: none;
+            color: pink;
+        }
+    </style>
+    <!-- descendant -->
+    <style>
+        ul b {
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+    
+    <style>
+        div p{color: red; background-color: yellow;}
+        p div{color: green;}
+    </style>
+</head>
+
+<body>
+    <p>Hello</p>
+    <h1>Hi</h1>
+    <p id="abc">How Are You</p>
+    <h3 class="abc">Class</h3>
+    <p id="abc pqr">SEE</p>
+    <p class="abc large">I am class</p>
+    <p class="abc" id="abc">Hello shahiq</p>
+    <p id="abc" class="abc">Check</p>
+     Attribute Selector 
+    <form>
+        Name :<input type="text" /><br><br>
+        Email :<input type="email" /><br><br>
+        <input type="button" value="click me" /><br><br>
+    </form>
+    <a href="#">Self</a><br><br>
+    <a href="#" target="_blank">Click Me</a>
+    descendant 
+    <ul>
+        <li><b>abc</b></li>
+        <li>pqr</li>
+        <b>
+            <li>XYZ</li>
+        </b>
+        <li><b>mno</b></li>
+    </ul>
+     
+    <div>
+        <p>I am inside BOX</p>
+    </div>
+    <p>I am inside box</p>
+    <p>
+        <div>Hello</div>
+    </p>
+    
+</body>
+
+</html>

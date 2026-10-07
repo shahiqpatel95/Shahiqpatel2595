@@ -1,0 +1,8 @@
+.lie{
+    text-align: center; text-decoration: underline overline ;
+    color: purple; text-transform: uppercase; text-indent: 40px;
+}
+.cap{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left; text-indent: 50px;
+}
